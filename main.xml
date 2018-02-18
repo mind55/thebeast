@@ -1,11 +1,146 @@
-<xml>
-  <dir>
-    <title>Formats</title>
-    <link>file://formats/main.xml</link>
-  </dir>
+<dir>
+<title>Chick flicks</title>
+<tmdb>list/https://www.themoviedb.org/list/47936</tmdb>
+</dir>
 
-  <dir>
-    <title>Shared Lists</title>
-    <link>file://shared lists/main.xml</link>
+<dir>
+<title>Hood movies</title>
+<tmdb>list/https://www.themoviedb.org/list/47832</tmdb>
+</dir>
+
+<dir>
+<title>Urban movies</title>
+<tmdb>list/https://www.themoviedb.org/list/48024</tmdb>
+</dir>
+
+<dir>
+<title>Urban Drama/action</title>
+<tmdb>list/https://www.themoviedb.org/list/48098</tmdb>
+</dir>
+
+<dir>
+<title>Urban comedy movies</title>
+<tmdb>list/https://www.themoviedb.org/list/48100</tmdb>
+</dir>
+
+<dir>
+<title>Urban love</title>
+<tmdb>list/https://www.themoviedb.org/list/48099</tmdb>
+</dir>
+
+<dir>
+<title>Comedy movies</title>
+<tmdb>list/https://www.themoviedb.org/list/47834</tmdb>
+</dir>
+
+<dir>
+<title>Late night</title>
+<tmdb>list/https://www.themoviedb.org/list/47843</tmdb>
+</dir>
+
+<dir>
+<title>Comedy</title>
+<tmdb>list/https://www.themoviedb.org/list/47754</tmdb>
+</dir>
+
+<dir>
+<title>DC</title>
+<link>https://raw.githubusercontent.com/Trapper69/trappor/master/DC.xml</link>
+</dir>
+
+<dir>
+<title>westerns</title>
+<tmdb>list/https://www.themoviedb.org/list/47711</tmdb>
+</dir>
+
+<dir>
+<title>Beast list</title>
+<tmdb>list/https://www.themoviedb.org/list/47690</tmdb>
+</dir>
+
+<dir>
+<title>tv shows</title>
+<tmdb>list/https://www.themoviedb.org/list/46939</tmdb>
+</dir>
+
+<dir>
+<title>animes tv</title>
+<tmdb>list/https://www.themoviedb.org/list/47315</tmdb>
+</dir>
+
+<dir>
+<title>Urban</title>
+<tmdb>list/https://www.themoviedb.org/list/47582</tmdb>
+</dir>
+
+<dir>
+    <title>actors (2)</title>
+    <link>https://raw.githubusercontent.com/Trapper69/trappor/master/actors%20(2).xml</link>
   </dir>
-</xml>
+  <dir>
+    <title>Collections</title>
+    <link>https://raw.githubusercontent.com/Trapper69/trappor/master/collections.xml</link>
+</dir>
+
+<dir>
+    <title>Movie Genres</title>
+    <link>https://raw.githubusercontent.com/Trapper69/trappor/master/genre_movies.xml</link>
+  </dir>
+  
+<dir>
+<title>Movie Years</title>
+<link>https://raw.githubusercontent.com/Trapper69/trappor/master/tmdbyear2.xml</link>
+</dir>
+ 
+<dir>
+<title>Networks</title>
+<link>https://raw.githubusercontent.com/Trapper69/trappor/master/networks.xml</link>
+</dir>
+
+<dir>
+	<title>IMDB Action TV Shows</title>
+	<imdburl>genres/action</imdburl>
+	<thumbnail></thumbnail>
+</dir>
+  
+<dir>
+<title>Search TMDB</title>
+<tmdb>search</tmdb>
+</dir>
+
+<dir>
+      <title>TMDB Popular</title>
+      <tmdb>movies/popular</tmdb> 
+</dir>
+
+<dir>
+      <title>TMDB Now Playing</title>
+      <tmdb>movies/now_playing</tmdb>
+</dir>
+  
+  <dir>
+  <title>Search Add On</title>
+  <trakt>search</trakt>
+</dir>
+
+<dir>
+<title>Search Internet Movies</title>
+<tmdb>search</tmdb>
+
+</xml><plugin>
+<name>settings</name>
+<link>plugin://plugin.video.Trapper/?action=openSettings</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<name>search</name>
+<link>plugin://plugin.video.Trapper/?action=search</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<name>Testings</name>
+<link>plugin://plugin.video.jen/?action=developer</link>
+<thumbnail></thumbnail>
+</plugin>
